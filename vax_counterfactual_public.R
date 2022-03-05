@@ -285,3 +285,5 @@ vax_age_risk_master <- bind_rows(
     weighted_risk = sum((vaxxed_risk_omi * omi_share * (rate/100) * pop) + (vaxxed_risk_delta * (1-omi_share) * (rate/100) * pop)) / sum(pop)
   ) %>%
   ungroup()
+
+#testing testing
